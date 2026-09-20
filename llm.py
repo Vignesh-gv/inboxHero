@@ -1,13 +1,6 @@
 import json
-import os
-
-from dotenv import load_dotenv
 import ollama
-
-
-load_dotenv()
-
-MODEL = os.getenv("OLLAMA_MODEL", "gemma4:12b")
+from config import OLLAMA_MODEL
 
 VALID_DISPOSITIONS = {
     "reply",
@@ -82,7 +75,7 @@ MESSAGES:
 """
 
     response = ollama.chat(
-        model=MODEL,
+        model=OLLAMA_MODEL,
         messages=[
             {
                 "role": "user",

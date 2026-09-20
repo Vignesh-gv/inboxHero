@@ -446,3 +446,7 @@
 {"event": "decision", "cap": "R1", "message_id": "m119", "disposition": "archive", "reason": "Automated notification for shared 1:1 notes.", "method": "llm"}
 {"event": "decision", "cap": "R1", "message_id": "m095", "disposition": "archive", "reason": "Automated notification for flight check-in availability.", "method": "llm"}
 {"event": "decision", "cap": "R1", "message_id": "m071", "disposition": "archive", "reason": "Automated notification regarding the AWS billing statement.", "method": "llm"}
+{"event": "read", "cap": "R2", "message_id": "m001"}
+{"event": "read", "cap": "R2", "message_id": "m003"}
+{"event": "read", "cap": "R2", "message_id": "m005"}
+{"event": "draft", "cap": "R2", "message_id": "m008", "cited_ids": ["m003"], "draft": "Hi Devika, I have the staging queue URL, but since it contains credentials, I will send it to you via a secure channel."}

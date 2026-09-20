@@ -1,16 +1,9 @@
 import json
-import os
-
 import ollama
-from dotenv import load_dotenv
 
+from config import OLLAMA_MODEL
 from retrieval import get_earlier_messages
 from trace import log_event
-
-
-load_dotenv()
-
-MODEL = os.getenv("OLLAMA_MODEL", "gemma4:12b")
 
 
 def draft_reply(message):
@@ -72,7 +65,7 @@ IMPORTANT RULES:
 """
 
     response = ollama.chat(
-        model=MODEL,
+        model=OLLAMA_MODEL,
         messages=[
             {
                 "role": "user",
