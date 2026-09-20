@@ -450,3 +450,5 @@
 {"event": "read", "cap": "R2", "message_id": "m003"}
 {"event": "read", "cap": "R2", "message_id": "m005"}
 {"event": "draft", "cap": "R2", "message_id": "m008", "cited_ids": ["m003"], "draft": "Hi Devika, I have the staging queue URL, but since it contains credentials, I will send it to you via a secure channel."}
+{"event": "gate", "cap": "R3", "action": "send", "message_id": "demo-send", "recipient": "test@example.com", "decision": "approved"}
+{"event": "gate", "cap": "R3", "action": "delete", "message_id": "demo-delete", "decision": "rejected"}
