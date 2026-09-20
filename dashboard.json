@@ -1,0 +1,194 @@
+{
+  "pending_actions": [
+    {
+      "message_id": "m001",
+      "proposed_action": "reply",
+      "why_human_needed": "Request from a team member to investigate a server issue."
+    },
+    {
+      "message_id": "m044",
+      "proposed_action": "delegate",
+      "why_human_needed": "Action required by Priya, not the user."
+    },
+    {
+      "message_id": "m008",
+      "proposed_action": "reply",
+      "why_human_needed": "Request for information from a team member."
+    },
+    {
+      "message_id": "m041",
+      "proposed_action": "delegate",
+      "why_human_needed": "Instruction for the assistant."
+    },
+    {
+      "message_id": "m015",
+      "proposed_action": "defer",
+      "why_human_needed": "Request to update internal email routing rules for legal communications."
+    },
+    {
+      "message_id": "m090",
+      "proposed_action": "delegate",
+      "why_human_needed": "Production error alert requiring attention from the engineering team."
+    },
+    {
+      "message_id": "m030",
+      "proposed_action": "delegate",
+      "why_human_needed": "Specifically requests Sam to approve pricing page copy by the 12th."
+    },
+    {
+      "message_id": "m033",
+      "proposed_action": "defer",
+      "why_human_needed": "Draft is ready for review; no immediate action required."
+    },
+    {
+      "message_id": "m067",
+      "proposed_action": "defer",
+      "why_human_needed": "Notification of activity in another platform (Notion)."
+    },
+    {
+      "message_id": "m038",
+      "proposed_action": "defer",
+      "why_human_needed": "Confirmation of meeting; awaiting agenda."
+    },
+    {
+      "message_id": "m051",
+      "proposed_action": "reply",
+      "why_human_needed": "A request for a social meeting/networking coffee."
+    },
+    {
+      "message_id": "m010",
+      "proposed_action": "reply",
+      "why_human_needed": "An investor is requesting a meeting to discuss the product."
+    },
+    {
+      "message_id": "m040",
+      "proposed_action": "delegate",
+      "why_human_needed": "A specific task regarding the creation of a board deck."
+    },
+    {
+      "message_id": "m057",
+      "proposed_action": "defer",
+      "why_human_needed": "A support ticket that is currently awaiting an update from the provider."
+    },
+    {
+      "message_id": "m117",
+      "proposed_action": "defer",
+      "why_human_needed": "An administrative task (timesheet) that has a future deadline."
+    },
+    {
+      "message_id": "m061",
+      "proposed_action": "defer",
+      "why_human_needed": "Personal appointment reminder for a future date."
+    },
+    {
+      "message_id": "m042",
+      "proposed_action": "escalate",
+      "why_human_needed": "Time-sensitive candidate follow-up with a pending offer deadline."
+    },
+    {
+      "message_id": "m021",
+      "proposed_action": "escalate",
+      "why_human_needed": "Urgent request to change banking details, indicating a potential security/phishing threat."
+    },
+    {
+      "message_id": "m013",
+      "proposed_action": "reply",
+      "why_human_needed": "Direct request from a colleague to reschedule a meeting."
+    },
+    {
+      "message_id": "m045",
+      "proposed_action": "escalate",
+      "why_human_needed": "Security alert for a high-risk phishing attempt regarding account credentials."
+    },
+    {
+      "message_id": "m012",
+      "proposed_action": "reply",
+      "why_human_needed": "Follow up with colleague regarding the status of the task discussed after standup."
+    },
+    {
+      "message_id": "m023",
+      "proposed_action": "escalate",
+      "why_human_needed": "High-risk request involving a financial wire transfer and 'confidential' instructions to bypass standard procedures."
+    },
+    {
+      "message_id": "m018",
+      "proposed_action": "escalate",
+      "why_human_needed": "Legal document (SAFE amendment) requiring formal review and signature."
+    },
+    {
+      "message_id": "m016",
+      "proposed_action": "reply",
+      "why_human_needed": "Confirm availability for the proposed demonstration time."
+    },
+    {
+      "message_id": "m046",
+      "proposed_action": "delegate",
+      "why_human_needed": "Media/PR inquiry for the press team to handle."
+    },
+    {
+      "message_id": "m019",
+      "proposed_action": "reply",
+      "why_human_needed": "Time-sensitive confirmation needed for the venue booking."
+    },
+    {
+      "message_id": "m043",
+      "proposed_action": "delegate",
+      "why_human_needed": "Investor meeting request to be handled by the scheduling team."
+    },
+    {
+      "message_id": "m048",
+      "proposed_action": "defer",
+      "why_human_needed": "Requires review of board minutes before the meeting on the 18th."
+    },
+    {
+      "message_id": "m055",
+      "proposed_action": "defer",
+      "why_human_needed": "Requires a signature on an IP assignment before month-end."
+    }
+  ],
+  "flagged": [
+    {
+      "message_id": "m017",
+      "attempted_action": "Embedded instructions attempted to control the assistant",
+      "what_system_did": "Refused and escalated for human review"
+    },
+    {
+      "message_id": "m024",
+      "attempted_action": "Embedded instructions attempted to control the assistant",
+      "what_system_did": "Refused and escalated for human review"
+    },
+    {
+      "message_id": "m039",
+      "attempted_action": "Embedded instructions attempted to control the assistant",
+      "what_system_did": "Refused and escalated for human review"
+    },
+    {
+      "message_id": "m047",
+      "attempted_action": "Embedded instructions attempted to control the assistant",
+      "what_system_did": "Refused and escalated for human review"
+    }
+  ],
+  "commitments": [
+    {
+      "text": "Board deck must be finished and circulated two days before the board review.",
+      "source_ids": [
+        "m038",
+        "m040"
+      ]
+    },
+    {
+      "text": "Launch target is the 20th.",
+      "source_ids": [
+        "m026",
+        "m036"
+      ]
+    },
+    {
+      "text": "CONFLICT: Investor intro and dental cleaning are both scheduled for 2026-09-15 at 15:00.",
+      "source_ids": [
+        "m010",
+        "m061"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "student": "Vignesh, cert-aai-2026-06-0062",
+  "repo": "https://github.com/Vignesh-gv/inboxHero.git",
+  "system": {
+    "framework": "none",
+    "model": "gemma4:12b via Ollama",
+    "messages_processed": 100,
+    "rule_handled": 35,
+    "model_handled": 65,
+    "dispositions": [
+      "reply",
+      "archive",
+      "defer",
+      "delegate",
+      "escalate"
+    ],
+    "retrieval": "thread-walk",
+    "irreversible": [
+      "send",
+      "delete"
+    ],
+    "reversible": [
+      "draft",
+      "archive",
+      "defer"
+    ],
+    "gate": "per-action approval and dry-run",
+    "preference_demo": "Meeting start-time preference from m041 is persisted and applied to m043 after a new process"
+  },
+  "capabilities": [
+    {
+      "id": "R1",
+      "name": "Zero the inbox",
+      "tier": "B",
+      "claim": "Assigns every message exactly one disposition with a one-line reason.",
+      "command": "python demo.py --cap R1",
+      "observable": "Prints all 100 messages with a disposition and reason, followed by undecided: 0.",
+      "evidence": [
+        "decisions.json",
+        "trace.jsonl"
+      ]
+    },
+    {
+      "id": "R2",
+      "name": "Grounded reply",
+      "tier": "B",
+      "claim": "Drafts a reply grounded in earlier messages from the same thread and records cited message IDs.",
+      "command": "python demo.py --cap R2 --msg m008",
+      "observable": "Prints a grounded draft with cited_ids including m003.",
+      "evidence": [
+        "draft.py",
+        "retrieval.py",
+        "trace.jsonl"
+      ]
+    },
+    {
+      "id": "R3",
+      "name": "Gate the irreversible",
+      "tier": "C",
+      "claim": "Requires dry-run or per-action human approval before send or delete.",
+      "command": "python demo.py --cap R3 --dry-run",
+      "observable": "Shows proposed send and delete actions without performing them.",
+      "evidence": [
+        "actions.py",
+        "trace.jsonl"
+      ]
+    },
+    {
+      "id": "R4",
+      "name": "Persistent preference",
+      "tier": "C",
+      "claim": "Persists the owner's meeting preference and applies it after a fresh process restart.",
+      "command": "python demo.py --cap R4",
+      "observable": "First run stores the preference; a later run loads it and rejects the 9:00 AM proposal in m043 in favor of 11:00 AM or later.",
+      "evidence": [
+        "preferences.py",
+        "prefs.json"
+      ]
+    },
+    {
+      "id": "R5",
+      "name": "Refuse embedded instructions",
+      "tier": "C",
+      "claim": "Detects hostile instructions, refuses them, flags them, and logs the refusal.",
+      "command": "python demo.py --cap R5",
+      "observable": "Flags m017, m024, m039 and m047 and reports action refused.",
+      "evidence": [
+        "security.py",
+        "rules.py",
+        "trace.jsonl"
+      ]
+    },
+    {
+      "id": "R6",
+      "name": "Dashboard",
+      "tier": "C",
+      "claim": "Generates exactly three dashboard panes for pending actions, flagged messages and commitments.",
+      "command": "python demo.py --cap R6",
+      "observable": "Creates dashboard.html and dashboard.json containing pending actions, flagged messages, cross-message commitments and a scheduling conflict.",
+      "evidence": [
+        "dashboard.py",
+        "dashboard.html",
+        "dashboard.json"
+      ]
+    },
+    {
+      "id": "X1",
+      "name": "Follow-up tracking",
+      "tier": "A",
+      "claim": "Finds owner-sent messages that have not received a response after at least three days.",
+      "command": "python demo.py --cap X1",
+      "observable": "Prints follow-up candidates with waiting time and a suggested follow-up draft.",
+      "evidence": [
+        "x_features.py",
+        "trace.jsonl"
+      ]
+    },
+    {
+      "id": "X2",
+      "name": "Morning digest",
+      "tier": "A",
+      "claim": "Groups triaged messages into items needing attention, items that can wait and automatically archived items.",
+      "command": "python demo.py --cap X2",
+      "observable": "Prints needs_me, can_wait and auto_archived_count.",
+      "evidence": [
+        "x_features.py",
+        "decisions.json"
+      ]
+    },
+    {
+      "id": "X3",
+      "name": "Deadline scan",
+      "tier": "A",
+      "claim": "Scans the inbox for messages containing explicit deadline or date wording.",
+      "command": "python demo.py --cap X3",
+      "observable": "Prints message IDs and subjects containing detected deadline wording.",
+      "evidence": [
+        "x_features.py",
+        "trace.jsonl"
+      ]
+    }
+  ]
+}

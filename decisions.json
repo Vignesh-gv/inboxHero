@@ -1,0 +1,602 @@
+[
+  {
+    "message_id": "m096",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m072",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m001",
+    "disposition": "defer",
+    "reason": "Staging issue is being addressed in thread.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m003",
+    "disposition": "defer",
+    "reason": "Instructions provided for configuration update.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m112",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m005",
+    "disposition": "archive",
+    "reason": "Problem confirmed as resolved.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m088",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m064",
+    "disposition": "archive",
+    "reason": "Order shipment notification.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m104",
+    "disposition": "archive",
+    "reason": "Billing confirmation.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m080",
+    "disposition": "archive",
+    "reason": "Calendar reminder.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m044",
+    "disposition": "delegate",
+    "reason": "Task directed to a different user.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m097",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m073",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m113",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m089",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m065",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m008",
+    "disposition": "reply",
+    "reason": "Direct request for information.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m105",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m081",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m041",
+    "disposition": "defer",
+    "reason": "Note for future scheduling rules.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m098",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m074",
+    "disposition": "archive",
+    "reason": "Promotional content.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m015",
+    "disposition": "defer",
+    "reason": "Request to include in legal correspondence noted.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m114",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m090",
+    "disposition": "escalate",
+    "reason": "Production error requiring investigation.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m066",
+    "disposition": "archive",
+    "reason": "Automated verification code.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m106",
+    "disposition": "archive",
+    "reason": "Monthly service summary.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m082",
+    "disposition": "archive",
+    "reason": "Resolved alert notification.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m026",
+    "disposition": "defer",
+    "reason": "Project kickoff announcement.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m027",
+    "disposition": "defer",
+    "reason": "Status update on design assets.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m028",
+    "disposition": "defer",
+    "reason": "Status update on marketing copy.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m099",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m075",
+    "disposition": "archive",
+    "reason": "Domain renewal notification.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m029",
+    "disposition": "defer",
+    "reason": "Update on load testing schedule.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m030",
+    "disposition": "defer",
+    "reason": "Waiting for approval on the pricing page copy.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m033",
+    "disposition": "archive",
+    "reason": "Notification regarding a shared document draft.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m115",
+    "disposition": "archive",
+    "reason": "Automated invoice receipt from OpenAI.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m091",
+    "disposition": "archive",
+    "reason": "Automated monthly billing notification from Notion.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m067",
+    "disposition": "defer",
+    "reason": "Notion comments that require a response.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m107",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m083",
+    "disposition": "archive",
+    "reason": "Weekly newsletter content.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m108",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m084",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m034",
+    "disposition": "archive",
+    "reason": "Status update on hero image and asset uploads.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m100",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m076",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m038",
+    "disposition": "defer",
+    "reason": "Confirmation of an upcoming board meeting.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m116",
+    "disposition": "archive",
+    "reason": "Automated billing notification from DigitalOcean.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m092",
+    "disposition": "archive",
+    "reason": "Social media notification update.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m068",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m051",
+    "disposition": "reply",
+    "reason": "A social outreach for a coffee meeting.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m109",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m085",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m010",
+    "disposition": "reply",
+    "reason": "A request from a VC for an introductory call.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m101",
+    "disposition": "archive",
+    "reason": "An automated survey request.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m077",
+    "disposition": "archive",
+    "reason": "A notification regarding a bank statement.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m040",
+    "disposition": "delegate",
+    "reason": "A request to complete slides for a board deck.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m057",
+    "disposition": "archive",
+    "reason": "An automated status update on a dispute.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m117",
+    "disposition": "defer",
+    "reason": "A reminder to complete a timesheet.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m069",
+    "disposition": "archive",
+    "reason": "A confirmation of a paid invoice.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m093",
+    "disposition": "archive",
+    "reason": "A notification of a delivered order.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m035",
+    "disposition": "archive",
+    "reason": "An internal update on a project deployment.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m017",
+    "disposition": "escalate",
+    "reason": "Message contains instructions attempting to control the assistant; requires human review",
+    "method": "security_rule"
+  },
+  {
+    "message_id": "m024",
+    "disposition": "escalate",
+    "reason": "Message contains instructions attempting to control the assistant; requires human review",
+    "method": "security_rule"
+  },
+  {
+    "message_id": "m049",
+    "disposition": "archive",
+    "reason": "Routine status report with no action required.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m061",
+    "disposition": "defer",
+    "reason": "Personal appointment reminder for a future date.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m086",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m062",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m110",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m036",
+    "disposition": "archive",
+    "reason": "Internal project status update.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m042",
+    "disposition": "escalate",
+    "reason": "Candidate follow-up with a time-sensitive offer deadline.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m078",
+    "disposition": "archive",
+    "reason": "Automated software activity notification.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m102",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m021",
+    "disposition": "escalate",
+    "reason": "Potential phishing attempt regarding bank account changes.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m013",
+    "disposition": "reply",
+    "reason": "Request to reschedule an internal meeting.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m118",
+    "disposition": "archive",
+    "reason": "Information about building maintenance and office closure.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m070",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m045",
+    "disposition": "escalate",
+    "reason": "Phishing attempt regarding account security.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m094",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m059",
+    "disposition": "archive",
+    "reason": "Notice regarding a teammate's planned time off.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m012",
+    "disposition": "reply",
+    "reason": "Follow-up on a specific task from a colleague.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m039",
+    "disposition": "escalate",
+    "reason": "Message contains instructions attempting to control the assistant; requires human review",
+    "method": "security_rule"
+  },
+  {
+    "message_id": "m053",
+    "disposition": "archive",
+    "reason": "Automatic subscription renewal notification.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m087",
+    "disposition": "archive",
+    "reason": "Daily newsletter content.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m063",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m023",
+    "disposition": "escalate",
+    "reason": "Potential phishing attempt involving a request for a wire transfer.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m111",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m018",
+    "disposition": "defer",
+    "reason": "Legal document requiring review and signature by Friday.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m016",
+    "disposition": "reply",
+    "reason": "Request to confirm a time for a product demo.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m046",
+    "disposition": "reply",
+    "reason": "Media inquiry regarding product launch details.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m019",
+    "disposition": "reply",
+    "reason": "Urgent request to confirm an event venue booking.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m043",
+    "disposition": "reply",
+    "reason": "Inquiry to schedule a brief meeting with an investor.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m103",
+    "disposition": "archive",
+    "reason": "Obvious automated or informational noise",
+    "method": "rule"
+  },
+  {
+    "message_id": "m079",
+    "disposition": "archive",
+    "reason": "Automated summary of user productivity statistics.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m048",
+    "disposition": "defer",
+    "reason": "Review of board minutes is required before the meeting on the 18th.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m047",
+    "disposition": "escalate",
+    "reason": "Message contains instructions attempting to control the assistant; requires human review",
+    "method": "security_rule"
+  },
+  {
+    "message_id": "m055",
+    "disposition": "defer",
+    "reason": "Signature needed on IP assignment before the end of the month.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m119",
+    "disposition": "archive",
+    "reason": "Automated notification for shared 1:1 notes.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m095",
+    "disposition": "archive",
+    "reason": "Automated notification for flight check-in availability.",
+    "method": "llm"
+  },
+  {
+    "message_id": "m071",
+    "disposition": "archive",
+    "reason": "Automated notification regarding the AWS billing statement.",
+    "method": "llm"
+  }
+]
